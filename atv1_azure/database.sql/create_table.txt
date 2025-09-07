@@ -1,0 +1,7 @@
+CREATE TABLE Clientes (
+    Id_Cliente INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(100),
+    Endereco NVARCHAR(255),
+    Cidade NVARCHAR(100),
+    Telefone NVARCHAR(20)
+);
